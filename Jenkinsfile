@@ -8,7 +8,7 @@ pipeline {
                 sh "hostname"
                 sh "uptime"
                 sh "ps -ef | grep java"
-                echo "update Jenkinsfile!!"
+                echo "update Jenkinsfile!"
             }
         }
     }
